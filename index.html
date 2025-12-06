@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Roll Numbers</title>
+</head>
+<body>
+    <h2>Add Students Roll Numbers</h2>
+    <form method="POST">
+        {% for i in range(7) %} 
+            Roll: <input type="text" name="roll"><br>
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
